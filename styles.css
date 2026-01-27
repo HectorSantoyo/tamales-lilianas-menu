@@ -1,0 +1,140 @@
+
+:root{
+  --bg:#F6F1E9;
+  --card:#FFFFFF;
+  --ink:#1C1A17;
+  --muted:#6E665C;
+  --accent:#C35A3A;
+  --radius:18px;
+  --shadow:0 10px 30px rgba(0,0,0,.08);
+  --font-head:"Fraunces",serif;
+  --font-body:"Plus Jakarta Sans",sans-serif;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:var(--font-body);
+  background:var(--bg);
+  color:var(--ink);
+}
+
+.header{
+  padding:20px 16px 10px;
+}
+.header h1{
+  margin:0;
+  font-family:var(--font-head);
+  font-size:26px;
+}
+.header p{
+  margin:4px 0 0;
+  color:var(--muted);
+}
+
+.view{display:none;padding:16px}
+.view.active{display:block}
+
+.section-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+
+.section-card{
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+  cursor:pointer;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.section-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 36px rgba(0,0,0,.12);
+}
+
+.section-img{
+  height:120px;
+  background:linear-gradient(135deg,#e7e1d8,#f4efe7);
+}
+
+.section-content{
+  padding:14px;
+}
+.section-content h3{
+  margin:0;
+  font-family:var(--font-head);
+  font-size:18px;
+}
+.section-content p{
+  margin:6px 0 0;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.back{
+  background:none;
+  border:none;
+  font-size:14px;
+  color:var(--accent);
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.item-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:16px;
+}
+
+.item-card{
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+
+.item-img{
+  height:160px;
+  background:linear-gradient(135deg,#ece6dc,#faf6ef);
+}
+
+.item-content{
+  padding:14px;
+}
+.item-content h4{
+  margin:0;
+  font-size:16px;
+  font-weight:600;
+}
+.item-content p{
+  margin:6px 0;
+  font-size:13px;
+  color:var(--muted);
+}
+.price{
+  font-weight:600;
+  margin-top:6px;
+}
+
+/* --- Appetizing image effects (v4) --- */
+.section-img, .item-img{
+  background-size: cover;
+  background-position: center;
+  transition: transform .35s ease, filter .35s ease;
+}
+
+.section-card:hover .section-img,
+.item-card:hover .item-img{
+  transform: scale(1.04);
+  filter: saturate(1.05);
+}
+
+.item-card{
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+.item-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.14);
+}

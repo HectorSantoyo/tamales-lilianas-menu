@@ -1,0 +1,2090 @@
+{
+  "meta": {
+    "project": "TL",
+    "generated_at": "2026-01-27T00:11:34Z",
+    "currency": "USD",
+    "locale": "es-MX",
+    "price_note": "Prices shown before tax unless noted. MAS TAX / Plus Tax."
+  },
+  "categories": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "notes": "All plates are served with rice and beans. Exception: Quesadillas (Sencillas) do not include rice and beans.",
+      "source_file": "Desayunos.json",
+      "sort_order": 1,
+      "items": [
+        {
+          "id": "huevos-rancheros",
+          "name": "Huevos Rancheros",
+          "description": "Ranch style eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-rancheros.jpg"
+        },
+        {
+          "id": "huevos-a-la-mexicana",
+          "name": "Huevos a la Mexicana",
+          "description": "Mexican style eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-a-la-mexicana.jpg"
+        },
+        {
+          "id": "huevos-divorciados",
+          "name": "Huevos Divorciados",
+          "description": "Divorced eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-divorciados.jpg"
+        },
+        {
+          "id": "huevos-revueltos",
+          "name": "Huevos Revueltos",
+          "description": "Scrambled eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-revueltos.jpg"
+        },
+        {
+          "id": "huevos-con-jamon",
+          "name": "Huevos con Jamón",
+          "description": "Ham & eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-con-jamón.jpg"
+        },
+        {
+          "id": "huevos-con-chorizo",
+          "name": "Huevos con Chorizo",
+          "description": "Mexican sausage & eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-con-chorizo.jpg"
+        },
+        {
+          "id": "huevos-con-tocino",
+          "name": "Huevos con Tocino",
+          "description": "Bacon & eggs",
+          "price": 13.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 13.25
+          },
+          "image": "images/items/huevos-con-tocino.jpg"
+        },
+        {
+          "id": "huevos-toluquenos",
+          "name": "Huevos Toluqueños",
+          "description": null,
+          "price": 13.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 13.75
+          },
+          "image": "images/items/huevos-toluqueños.jpg"
+        },
+        {
+          "id": "huevos-al-albanil",
+          "name": "Huevos al Albañil",
+          "description": null,
+          "price": 13.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 13.75
+          },
+          "image": "images/items/huevos-al-albañil.jpg"
+        },
+        {
+          "id": "orden-machaca-con-huevo",
+          "name": "Orden de Machaca con Huevo",
+          "description": "Shredded beef with eggs",
+          "price": 19.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 10,
+          "pricing": {
+            "type": "single",
+            "price": 19.0
+          },
+          "image": "images/items/orden-de-machaca-con-huevo.jpg"
+        },
+        {
+          "id": "orden-huevos-con-nopales",
+          "name": "Orden de Huevos con Nopales",
+          "description": "Eggs with cactus",
+          "price": 13.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 11,
+          "pricing": {
+            "type": "single",
+            "price": 13.75
+          },
+          "image": "images/items/orden-de-huevos-con-nopales.jpg"
+        },
+        {
+          "id": "chilaquiles-con-arroz-y-frijoles",
+          "name": "Chilaquiles con Arroz y Frijoles",
+          "description": "Chilaquiles with rice & beans",
+          "price": 15.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 12,
+          "pricing": {
+            "type": "single",
+            "price": 15.75
+          },
+          "image": "images/items/chilaquiles-con-arroz-y-frijoles.jpg"
+        },
+        {
+          "id": "chilaquiles-con-bistek",
+          "name": "Chilaquiles con Bistek",
+          "description": "Chilaquiles with steak",
+          "price": 20.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 13,
+          "pricing": {
+            "type": "single",
+            "price": 20.75
+          },
+          "image": "images/items/chilaquiles-con-bistek.jpg"
+        },
+        {
+          "id": "chilaquiles-con-2-huevos-estrellados",
+          "name": "Chilaquiles con 2 Huevos Estrellados",
+          "description": "Chilaquiles with two sunny side up eggs",
+          "price": 17.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 14,
+          "pricing": {
+            "type": "single",
+            "price": 17.75
+          },
+          "image": "images/items/chilaquiles-con-2-huevos-estrellados.jpg"
+        },
+        {
+          "id": "quesadillas-sincronizadas",
+          "name": "Quesadillas (Sincronizadas)",
+          "description": "Synchronized quesadilla",
+          "price": 16.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 15,
+          "pricing": {
+            "type": "single",
+            "price": 16.25
+          },
+          "image": "images/items/quesadillas-(sincronizadas).jpg"
+        },
+        {
+          "id": "quesadillas-sencillas",
+          "name": "Quesadillas (Sencillas)",
+          "description": "Plain quesadilla (no rice & beans)",
+          "price": 7.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 16,
+          "pricing": {
+            "type": "single",
+            "price": 7.25
+          },
+          "image": "images/items/quesadillas-(sencillas).jpg"
+        }
+      ],
+      "image": "images/sections/breakfast.jpg"
+    },
+    {
+      "id": "antojitos-mexicanos",
+      "name": "Antojitos Mexicanos",
+      "notes": null,
+      "source_file": "Antojitos_Mexicanos.json",
+      "sort_order": 2,
+      "items": [
+        {
+          "id": "memelas-frijol-queso",
+          "name": "Memelas",
+          "description": "Beans & cheese",
+          "price": 6.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 6.75
+          },
+          "image": "images/items/memelas.jpg"
+        },
+        {
+          "id": "memelas-pollo-salsa-verde",
+          "name": "Memelas con Pollo en Salsa Verde",
+          "description": "Chicken in green sauce",
+          "price": 7.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 7.5
+          },
+          "image": "images/items/memelas-con-pollo-en-salsa-verde.jpg"
+        },
+        {
+          "id": "quesadillas-hechas-a-mano",
+          "name": "Quesadillas Hechas a Mano",
+          "description": "Flor de calabaza, hongos, asada, pollo, adobada o deshebrada",
+          "price": 9.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 9.75
+          },
+          "image": "images/items/quesadillas-hechas-a-mano.jpg"
+        },
+        {
+          "id": "quesadillas-hechas-a-mano-mixta",
+          "name": "Quesadillas Hechas a Mano (Mixta)",
+          "description": "Mixed meats",
+          "price": 10.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 10.75
+          },
+          "image": "images/items/quesadillas-hechas-a-mano-(mixta).jpg"
+        },
+        {
+          "id": "mulitas",
+          "name": "Mulitas",
+          "description": "Asada, deshebrada o adobada",
+          "price": 7.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 7.0
+          },
+          "image": "images/items/mulitas.jpg"
+        },
+        {
+          "id": "gorditas",
+          "name": "Gorditas",
+          "description": "Estilo Zacatecas. Available fillings: chicharrón con chile verde, carne deshebrada, frijoles con queso, picadillo, nopales, rajas con queso, asada, adobada, queso, pollo",
+          "price": 6.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 6.75
+          },
+          "image": "images/items/gorditas.jpg"
+        },
+        {
+          "id": "gorditas-preparadas",
+          "name": "Gorditas Preparadas",
+          "description": "Lettuce, tomato, cream and cheese",
+          "price": 7.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 7.0
+          },
+          "image": "images/items/gorditas-preparadas.jpg"
+        },
+        {
+          "id": "huaraches",
+          "name": "Huaraches",
+          "description": "Estilo Zacatecas: carne asada, deshebrada y adobada",
+          "price": 9.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 9.75
+          },
+          "image": "images/items/huaraches.jpg"
+        },
+        {
+          "id": "sopes",
+          "name": "Sopes",
+          "description": "Carne asada, carne adobada o carne deshebrada",
+          "price": 6.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 6.75
+          },
+          "image": "images/items/sopes.jpg"
+        },
+        {
+          "id": "tortas",
+          "name": "Tortas",
+          "description": "Lomo, milanesa, pierna, asada, pollo, cubana, chorizo, adobada, deshebrada, cochinita pibil, jamón",
+          "price": 9.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 10,
+          "pricing": {
+            "type": "single",
+            "price": 9.25
+          },
+          "image": "images/items/tortas.jpg"
+        }
+      ],
+      "image": "images/sections/antojitos-mexicanos.jpg"
+    },
+    {
+      "id": "tamales",
+      "name": "Tamales",
+      "notes": null,
+      "source_file": "Tamales.json",
+      "sort_order": 3,
+      "items": [
+        {
+          "id": "tamales",
+          "name": "Tamales",
+          "description": "Available flavors: Chile rojo con carne, Chile verde con carne, Rajas con queso, Pollo con verduras, Dulce (pasitas con piña), Elote.",
+          "price": 3.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "notes": "Price per piece. Dozen available for $35.00.",
+          "pricing": {
+            "type": "single",
+            "price": 3.0
+          },
+          "image": "images/items/tamales.jpg"
+        }
+      ],
+      "image": "images/sections/tamales.jpg"
+    },
+    {
+      "id": "burritos",
+      "name": "Burritos",
+      "notes": null,
+      "source_file": "Burritos.json",
+      "sort_order": 4,
+      "items": [
+        {
+          "id": "burrito-carne-asada",
+          "name": "Burrito de Carne Asada",
+          "description": "Grilled meat",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 9.5
+            },
+            {
+              "name": "Wet (Mojado)",
+              "price": 11.25
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 9.5
+              },
+              {
+                "id": "wet-mojado",
+                "name": "Wet (Mojado)",
+                "price": 11.25
+              }
+            ]
+          },
+          "image": "images/items/burrito-de-carne-asada.jpg"
+        },
+        {
+          "id": "burrito-carne-adobada",
+          "name": "Burrito de Carne Adobada",
+          "description": "Marinated meat",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 9.5
+            },
+            {
+              "name": "Wet (Mojado)",
+              "price": 11.25
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 9.5
+              },
+              {
+                "id": "wet-mojado",
+                "name": "Wet (Mojado)",
+                "price": 11.25
+              }
+            ]
+          },
+          "image": "images/items/burrito-de-carne-adobada.jpg"
+        },
+        {
+          "id": "burrito-carne-deshebrada",
+          "name": "Burrito de Carne Deshebrada",
+          "description": "Shredded beef",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 9.5
+            },
+            {
+              "name": "Wet (Mojado)",
+              "price": 11.25
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 9.5
+              },
+              {
+                "id": "wet-mojado",
+                "name": "Wet (Mojado)",
+                "price": 11.25
+              }
+            ]
+          },
+          "image": "images/items/burrito-de-carne-deshebrada.jpg"
+        },
+        {
+          "id": "burrito-de-guisado",
+          "name": "Burrito de Guisado",
+          "description": null,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 11.25
+            },
+            {
+              "name": "Wet (Mojado)",
+              "price": 13.25
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 11.25
+              },
+              {
+                "id": "wet-mojado",
+                "name": "Wet (Mojado)",
+                "price": 13.25
+              }
+            ]
+          },
+          "image": "images/items/burrito-de-guisado.jpg"
+        },
+        {
+          "id": "burrito-machaca-huevo",
+          "name": "Burrito de Machaca con Huevo",
+          "description": "Shredded beef with eggs",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 12.0
+            },
+            {
+              "name": "Wet (Mojado)",
+              "price": 13.5
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 12.0
+              },
+              {
+                "id": "wet-mojado",
+                "name": "Wet (Mojado)",
+                "price": 13.5
+              }
+            ]
+          },
+          "image": "images/items/burrito-de-machaca-con-huevo.jpg"
+        }
+      ],
+      "image": "images/sections/burritos.jpg"
+    },
+    {
+      "id": "enchiladas",
+      "name": "Enchiladas",
+      "notes": "Tres Enchiladas (Three Enchiladas).",
+      "source_file": "Enchiladas.json",
+      "sort_order": 5,
+      "items": [
+        {
+          "id": "enchiladas-rojas-verdes-queso",
+          "name": "Enchiladas Rojas o Verdes de Queso",
+          "description": "Con Arroz, Frijoles y Ensalada (Red or green enchilada with cheese, rice, beans & salad)",
+          "price": 18.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 18.5
+          },
+          "image": "images/items/enchiladas-rojas-o-verdes-de-queso.jpg"
+        },
+        {
+          "id": "enchiladas-rojas-verdes-pollo",
+          "name": "Enchiladas Rojas o Verdes de Pollo",
+          "description": "Con Arroz y Frijoles (Red or green enchiladas with chicken, rice & beans)",
+          "price": 19.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 19.5
+          },
+          "image": "images/items/enchiladas-rojas-o-verdes-de-pollo.jpg"
+        },
+        {
+          "id": "enchiladas-suizas",
+          "name": "Enchiladas Suizas",
+          "description": "Swiss style enchiladas",
+          "price": 19.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 19.5
+          },
+          "image": "images/items/enchiladas-suizas.jpg"
+        },
+        {
+          "id": "enchiladas-chipotle",
+          "name": "Enchiladas Chipotle",
+          "description": "Con Arroz y Frijoles",
+          "price": 19.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 19.75
+          },
+          "image": "images/items/enchiladas-chipotle.jpg"
+        },
+        {
+          "id": "enchiladas-chipotle-con-pollo",
+          "name": "Enchiladas Chipotle con Pollo",
+          "description": "Con Arroz y Frijoles",
+          "price": 19.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 19.75
+          },
+          "image": "images/items/enchiladas-chipotle-con-pollo.jpg"
+        },
+        {
+          "id": "enchiladas-de-mole",
+          "name": "Enchiladas de Mole",
+          "description": "Con Arroz y Frijoles",
+          "price": 21.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 21.5
+          },
+          "image": "images/items/enchiladas-de-mole.jpg"
+        },
+        {
+          "id": "enchiladas-de-mole-con-pollo",
+          "name": "Enchiladas de Mole con Pollo",
+          "description": "Chicken Enchiladas (Con Arroz y Frijoles)",
+          "price": 22.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 22.25
+          },
+          "image": "images/items/enchiladas-de-mole-con-pollo.jpg"
+        },
+        {
+          "id": "enchiladas-a-la-carta",
+          "name": "Enchiladas a la carta",
+          "description": "(Pollo o Queso / Chicken or Cheese) c/u",
+          "price": 4.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 4.0
+          },
+          "image": "images/items/enchiladas-a-la-carta.jpg"
+        },
+        {
+          "id": "enchiladas-a-la-carta-mole",
+          "name": "Enchiladas a la carta de Mole",
+          "description": "c/u",
+          "price": 4.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 4.25
+          },
+          "image": "images/items/enchiladas-a-la-carta-de-mole.jpg"
+        }
+      ],
+      "image": "images/sections/enchiladas.jpg"
+    },
+    {
+      "id": "caldos",
+      "name": "Caldos",
+      "notes": null,
+      "source_file": "Caldos.json",
+      "sort_order": 6,
+      "items": [
+        {
+          "id": "albondigas",
+          "name": "Albóndigas",
+          "description": "Meatball soup",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "variants": [
+            {
+              "name": "Small Plate",
+              "price": 14.75
+            },
+            {
+              "name": "Large Plate",
+              "price": 15.75
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small-plate",
+                "name": "Small Plate",
+                "price": 14.75
+              },
+              {
+                "id": "large-plate",
+                "name": "Large Plate",
+                "price": 15.75
+              }
+            ]
+          },
+          "image": "images/items/albóndigas.jpg"
+        },
+        {
+          "id": "pozole",
+          "name": "Pozole",
+          "description": "Served daily",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "variants": [
+            {
+              "name": "Small Plate",
+              "price": 14.75
+            },
+            {
+              "name": "Large Plate",
+              "price": 15.75
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small-plate",
+                "name": "Small Plate",
+                "price": 14.75
+              },
+              {
+                "id": "large-plate",
+                "name": "Large Plate",
+                "price": 15.75
+              }
+            ]
+          },
+          "image": "images/items/pozole.jpg"
+        },
+        {
+          "id": "menudo",
+          "name": "Menudo",
+          "description": "Saturday & Sunday only",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "variants": [
+            {
+              "name": "Small Plate",
+              "price": 14.75
+            },
+            {
+              "name": "Large Plate",
+              "price": 15.75
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small-plate",
+                "name": "Small Plate",
+                "price": 14.75
+              },
+              {
+                "id": "large-plate",
+                "name": "Large Plate",
+                "price": 15.75
+              }
+            ]
+          },
+          "image": "images/items/menudo.jpg"
+        },
+        {
+          "id": "caldo-de-pollo",
+          "name": "Caldo de Pollo",
+          "description": "Monday to Friday only",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "variants": [
+            {
+              "name": "Small Plate",
+              "price": 14.75
+            },
+            {
+              "name": "Large Plate",
+              "price": 15.75
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small-plate",
+                "name": "Small Plate",
+                "price": 14.75
+              },
+              {
+                "id": "large-plate",
+                "name": "Large Plate",
+                "price": 15.75
+              }
+            ]
+          },
+          "image": "images/items/caldo-de-pollo.jpg"
+        },
+        {
+          "id": "caldo-de-res",
+          "name": "Caldo de Res",
+          "description": "Monday to Friday only",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "variants": [
+            {
+              "name": "Small Plate",
+              "price": 14.75
+            },
+            {
+              "name": "Large Plate",
+              "price": 15.75
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small-plate",
+                "name": "Small Plate",
+                "price": 14.75
+              },
+              {
+                "id": "large-plate",
+                "name": "Large Plate",
+                "price": 15.75
+              }
+            ]
+          },
+          "image": "images/items/caldo-de-res.jpg"
+        },
+        {
+          "id": "guacamole",
+          "name": "Guacamole",
+          "description": "(Optional)",
+          "price": 10.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 10.0
+          },
+          "image": "images/items/guacamole.jpg"
+        },
+        {
+          "id": "chips",
+          "name": "Chips",
+          "description": null,
+          "price": 2.5,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 2.5
+          },
+          "image": "images/items/chips.jpg"
+        }
+      ],
+      "image": "images/sections/caldos.jpg"
+    },
+    {
+      "id": "tacos-tostadas-flautas",
+      "name": "Tacos / Tostadas / Flautas",
+      "notes": "MAS TAX / Plus Tax",
+      "source_file": "Tacos_Tostadas.json",
+      "sort_order": 7,
+      "items": [
+        {
+          "id": "taco-soft-carne-asada",
+          "name": "Taco Soft - Carne Asada",
+          "description": "Grilled steak",
+          "price": 2.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 2.75
+          },
+          "image": "images/items/taco-soft---carne-asada.jpg"
+        },
+        {
+          "id": "taco-soft-carne-adobada",
+          "name": "Taco Soft - Carne Adobada",
+          "description": "Marinated meat",
+          "price": 2.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 2.75
+          },
+          "image": "images/items/taco-soft---carne-adobada.jpg"
+        },
+        {
+          "id": "taco-soft-birria-de-res",
+          "name": "Taco Soft - Birria de Res",
+          "description": null,
+          "price": 3.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 3.75
+          },
+          "image": "images/items/taco-soft---birria-de-res.jpg"
+        },
+        {
+          "id": "taco-soft-cochinita-pibil",
+          "name": "Taco Soft - Cochinita Pibil",
+          "description": null,
+          "price": 3.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 3.75
+          },
+          "image": "images/items/taco-soft---cochinita-pibil.jpg"
+        },
+        {
+          "id": "tostada-carne-deshebrada",
+          "name": "Tostada - Carne Deshebrada",
+          "description": "Shredded beef",
+          "price": 7.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 7.25
+          },
+          "image": "images/items/tostada---carne-deshebrada.jpg"
+        },
+        {
+          "id": "tostada-cueritos",
+          "name": "Tostada - Cueritos",
+          "description": null,
+          "price": 7.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 7.25
+          },
+          "image": "images/items/tostada---cueritos.jpg"
+        },
+        {
+          "id": "tostada-lomo",
+          "name": "Tostada - Lomo",
+          "description": null,
+          "price": 7.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 7.5
+          },
+          "image": "images/items/tostada---lomo.jpg"
+        },
+        {
+          "id": "tostada-ceviche-camaron",
+          "name": "Tostada - Ceviche de Camarón",
+          "description": null,
+          "price": 7.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 7.5
+          },
+          "image": "images/items/tostada---ceviche-de-camarón.jpg"
+        },
+        {
+          "id": "tres-flautas",
+          "name": "Tres Flautas",
+          "description": "De Pollo o Res con Arroz, Frijoles y Ensalada (Three chicken or shredded beef flautas with rice, beans & salad)",
+          "price": 15.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 15.5
+          },
+          "image": "images/items/tres-flautas.jpg"
+        },
+        {
+          "id": "flauta-a-la-carta",
+          "name": "Flauta a la Carta",
+          "description": "c/u",
+          "price": 3.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 10,
+          "pricing": {
+            "type": "single",
+            "price": 3.5
+          },
+          "image": "images/items/flauta-a-la-carta.jpg"
+        },
+        {
+          "id": "tres-tacos-dorados",
+          "name": "3-Tacos Dorados",
+          "description": "Con Arroz, Frijoles y Ensalada",
+          "price": 15.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 11,
+          "pricing": {
+            "type": "single",
+            "price": 15.5
+          },
+          "image": "images/items/3-tacos-dorados.jpg"
+        },
+        {
+          "id": "taco-dorado-a-la-carta",
+          "name": "Taco Dorado (A la Carta)",
+          "description": "Pollo, Res, Papa, Picadillo ó Requeson. c/u",
+          "price": 3.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 12,
+          "pricing": {
+            "type": "single",
+            "price": 3.5
+          },
+          "image": "images/items/taco-dorado-(a-la-carta).jpg"
+        }
+      ],
+      "image": "images/sections/tacos.jpg"
+    },
+    {
+      "id": "mariscos-y-mas",
+      "name": "Mariscos y Más",
+      "notes": "MAS TAX / Plus Tax",
+      "source_file": "Mariscos.json",
+      "sort_order": 8,
+      "items": [
+        {
+          "id": "camarones-al-gusto",
+          "name": "Camarones Al Gusto",
+          "description": "Shrimp of your choice. Al Ajillo, A La Veracruzana, A La Diabla, Empanizados, Al Mojo de Ajo, Rancheros.",
+          "price": 22.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 22.0
+          },
+          "image": "images/items/camarones-al-gusto.jpg"
+        },
+        {
+          "id": "filete-al-gusto",
+          "name": "Filete Al Gusto",
+          "description": "Fish fillet of your choice. Al Ajillo, Al Mojo de Ajo, A La Veracruzana, En Mantequilla, Empanizados.",
+          "price": 21.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 21.0
+          },
+          "image": "images/items/filete-al-gusto.jpg"
+        },
+        {
+          "id": "coctel-de-camaron",
+          "name": "Coctel de Camarón",
+          "description": "Shrimp Cocktail",
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "variants": [
+            {
+              "name": "Chico (Small)",
+              "price": 12.5
+            },
+            {
+              "name": "Grande (Large)",
+              "price": 17.5
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "chico-small",
+                "name": "Chico (Small)",
+                "price": 12.5
+              },
+              {
+                "id": "grande-large",
+                "name": "Grande (Large)",
+                "price": 17.5
+              }
+            ]
+          },
+          "image": "images/items/coctel-de-camarón.jpg"
+        },
+        {
+          "id": "mojarra-al-gusto",
+          "name": "Mojarra Al Gusto",
+          "description": "Fried Tilapia. Al Ajillo, Al Mojo de Ajo, A La Veracruzana, En Mantequilla, Empanizados.",
+          "price": 20.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 20.0
+          },
+          "image": "images/items/mojarra-al-gusto.jpg"
+        },
+        {
+          "id": "caldos-de-mariscos",
+          "name": "Caldos de Mariscos",
+          "description": "Seafood Stew",
+          "price": 19.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 19.0
+          },
+          "image": "images/items/caldos-de-mariscos.jpg"
+        },
+        {
+          "id": "caldo-de-camaron",
+          "name": "Caldo de Camarón",
+          "description": "Shrimp Stew",
+          "price": 16.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 16.75
+          },
+          "image": "images/items/caldo-de-camarón.jpg"
+        },
+        {
+          "id": "caldo-de-pescado",
+          "name": "Caldo de Pescado",
+          "description": "Fish Stew",
+          "price": 16.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 16.75
+          },
+          "image": "images/items/caldo-de-pescado.jpg"
+        }
+      ],
+      "image": "images/sections/mariscos.jpg"
+    },
+    {
+      "id": "dinner-entree",
+      "name": "Dinner Entrée",
+      "notes": "Any change to your order will be charged extra. MAS TAX / Plus Tax.",
+      "source_file": "Cena.json",
+      "sort_order": 9,
+      "items": [
+        {
+          "id": "fajitas",
+          "name": "Fajitas de Pollo o Res",
+          "description": "Chicken or beef fajitas",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/fajitas-de-pollo-o-res.jpg"
+        },
+        {
+          "id": "cochinita-pibil",
+          "name": "Cochinita Pibil",
+          "description": "Pork dish",
+          "price": 21.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 21.0
+          },
+          "image": "images/items/cochinita-pibil.jpg"
+        },
+        {
+          "id": "lengua-salsa-verde",
+          "name": "Lengua en Salsa Verde",
+          "description": "Tongue in green sauce",
+          "price": 21.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 21.0
+          },
+          "image": "images/items/lengua-en-salsa-verde.jpg"
+        },
+        {
+          "id": "pechuga-poblana",
+          "name": "Pechuga Poblana",
+          "description": "Poblana style chicken breast",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/pechuga-poblana.jpg"
+        },
+        {
+          "id": "lomo-adobado",
+          "name": "Lomo Adobado",
+          "description": "Marinated pork loin",
+          "price": 23.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 23.5
+          },
+          "image": "images/items/lomo-adobado.jpg"
+        },
+        {
+          "id": "pollo-a-la-mexicana",
+          "name": "Pollo a la Mexicana",
+          "description": "Mexican style chicken",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/pollo-a-la-mexicana.jpg"
+        },
+        {
+          "id": "chuleta-ahumada",
+          "name": "Chuleta Ahumada",
+          "description": "Smoked pork chop",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/chuleta-ahumada.jpg"
+        },
+        {
+          "id": "milanesa-res",
+          "name": "Milanesa de Res",
+          "description": "Breaded steak",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/milanesa-de-res.jpg"
+        },
+        {
+          "id": "bistek-a-la-mexicana",
+          "name": "Bistek a la Mexicana",
+          "description": "Mexican style steak",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/bistek-a-la-mexicana.jpg"
+        },
+        {
+          "id": "bistek-al-albanil",
+          "name": "Bistek al Albañil",
+          "description": "Albañil style steak",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 10,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/bistek-al-albañil.jpg"
+        },
+        {
+          "id": "bistek-tlaxcalteca",
+          "name": "Bistek Tlaxcalteca",
+          "description": "Tlaxcalteca style steak",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 11,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/bistek-tlaxcalteca.jpg"
+        },
+        {
+          "id": "bistek-ranchero",
+          "name": "Bistek Ranchero",
+          "description": "Ranch style steak",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 12,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/bistek-ranchero.jpg"
+        },
+        {
+          "id": "bistek-poblano",
+          "name": "Bistek Poblano",
+          "description": "Poblano style steak",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 13,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/bistek-poblano.jpg"
+        },
+        {
+          "id": "bistek-tampiquena",
+          "name": "Bistek a la Tampiqueña",
+          "description": "Tampiqueña style steak",
+          "price": 26.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 14,
+          "pricing": {
+            "type": "single",
+            "price": 26.0
+          },
+          "image": "images/items/bistek-a-la-tampiqueña.jpg"
+        },
+        {
+          "id": "bistek-con-papas",
+          "name": "Bistek con Papas",
+          "description": "Steak with french fries",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 15,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/bistek-con-papas.jpg"
+        },
+        {
+          "id": "bistek-a-la-plancha",
+          "name": "Bistek a la Plancha",
+          "description": "Grilled steak",
+          "price": 21.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 16,
+          "pricing": {
+            "type": "single",
+            "price": 21.75
+          },
+          "image": "images/items/bistek-a-la-plancha.jpg"
+        }
+      ],
+      "image": "images/sections/dinner.jpg"
+    },
+    {
+      "id": "specials-of-the-day",
+      "name": "Specials of the Day",
+      "notes": null,
+      "source_file": "Especiales_del_dia.json",
+      "sort_order": 10,
+      "items": [
+        {
+          "id": "pechuga-de-pollo",
+          "name": "Pechuga de Pollo",
+          "description": "Empanizada, a la plancha o con crema de chipotle",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/pechuga-de-pollo.jpg"
+        },
+        {
+          "id": "orden-costilla-salsa-verde",
+          "name": "Orden de Costilla en Salsa Verde",
+          "description": "Pork ribs in green sauce",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/orden-de-costilla-en-salsa-verde.jpg"
+        },
+        {
+          "id": "orden-birria",
+          "name": "Orden de Birria",
+          "description": null,
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/orden-de-birria.jpg"
+        },
+        {
+          "id": "carne-de-puerco-salsa-verde-o-roja",
+          "name": "Rica Carne de Puerco en Salsa Verde o Roja",
+          "description": "Served with rice and beans",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/rica-carne-de-puerco-en-salsa-verde-o-roja.jpg"
+        },
+        {
+          "id": "orden-chimichanga",
+          "name": "Orden de Chimichanga",
+          "description": null,
+          "price": 18.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 18.0
+          },
+          "image": "images/items/orden-de-chimichanga.jpg"
+        },
+        {
+          "id": "chicharron-salsa-verde",
+          "name": "Chicharrón en Salsa Verde",
+          "description": "Served with rice and beans",
+          "price": 21.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 21.5
+          },
+          "image": "images/items/chicharrón-en-salsa-verde.jpg"
+        },
+        {
+          "id": "mole-estilo-zacatecano",
+          "name": "Mole Estilo Zacatecano",
+          "description": "Served with rice and beans",
+          "price": 22.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 22.5
+          },
+          "image": "images/items/mole-estilo-zacatecano.jpg"
+        },
+        {
+          "id": "mole-cacahuate-pollo",
+          "name": "Delicioso Mole de Cacahuate con Pollo",
+          "description": "Peanut mole with chicken, rice and beans",
+          "price": 23.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 8,
+          "pricing": {
+            "type": "single",
+            "price": 23.0
+          },
+          "image": "images/items/delicioso-mole-de-cacahuate-con-pollo.jpg"
+        },
+        {
+          "id": "plato-mexicano",
+          "name": "Plato Mexicano",
+          "description": "3 carnes, 1 taco dorado, 1 flauta, rice and beans",
+          "price": 25.25,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 9,
+          "pricing": {
+            "type": "single",
+            "price": 25.25
+          },
+          "image": "images/items/plato-mexicano.jpg"
+        },
+        {
+          "id": "chile-relleno",
+          "name": "Chile Relleno",
+          "description": "Stuffed green chile served with rice and beans",
+          "price": 17.75,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 10,
+          "pricing": {
+            "type": "single",
+            "price": 17.75
+          },
+          "image": "images/items/chile-relleno.jpg"
+        },
+        {
+          "id": "dos-tamales-especial",
+          "name": "Especial: Dos Tamales",
+          "description": "Served with rice and beans",
+          "price": 12.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 11,
+          "pricing": {
+            "type": "single",
+            "price": 12.0
+          },
+          "image": "images/items/especial:-dos-tamales.jpg"
+        },
+        {
+          "id": "ensalada-de-pollo",
+          "name": "Ensalada de Pollo",
+          "description": "Chicken salad",
+          "price": 15.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 12,
+          "pricing": {
+            "type": "single",
+            "price": 15.5
+          },
+          "image": "images/items/ensalada-de-pollo.jpg"
+        }
+      ],
+      "image": "images/sections/specials-of-the-day.jpg"
+    },
+    {
+      "id": "kids-menu",
+      "name": "Kids Menu",
+      "notes": null,
+      "source_file": "Kids_Menu.json",
+      "sort_order": 11,
+      "items": [
+        {
+          "id": "kids-tamal",
+          "name": "1-Tamal",
+          "description": "Rice & Beans",
+          "price": 10.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 10.0
+          },
+          "image": "images/items/1-tamal.jpg"
+        },
+        {
+          "id": "kids-taco-dorado",
+          "name": "1-Taco Dorado",
+          "description": "Rice & Beans",
+          "price": 10.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 10.0
+          },
+          "image": "images/items/1-taco-dorado.jpg"
+        },
+        {
+          "id": "kids-enchilada",
+          "name": "1-Enchilada",
+          "description": "Rice & Beans",
+          "price": 10.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 10.0
+          },
+          "image": "images/items/1-enchilada.jpg"
+        },
+        {
+          "id": "kids-quesadilla",
+          "name": "1-Quesadilla",
+          "description": "Rice & Beans",
+          "price": 11.5,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 11.5
+          },
+          "image": "images/items/1-quesadilla.jpg"
+        },
+        {
+          "id": "kids-soft-taco",
+          "name": "1-Soft Taco",
+          "description": "Rice & Beans",
+          "price": 9.0,
+          "print_to_kitchen": true,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 9.0
+          },
+          "image": "images/items/1-soft-taco.jpg"
+        }
+      ],
+      "image": "images/sections/kids-menu.jpg"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "notes": null,
+      "source_file": "Postres.json",
+      "sort_order": 12,
+      "items": [
+        {
+          "id": "chocoflan",
+          "name": "Chocoflan",
+          "description": null,
+          "price": 6.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 1,
+          "pricing": {
+            "type": "single",
+            "price": 6.0
+          },
+          "image": "images/items/chocoflan.jpg"
+        },
+        {
+          "id": "rico-flan-napolitano",
+          "name": "Rico Flan Napolitano (Estilo Casero)",
+          "description": "Tasty Napolitan Flan (Homemade style)",
+          "price": 6.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 6.0
+          },
+          "image": "images/items/rico-flan-napolitano-(estilo-casero).jpg"
+        },
+        {
+          "id": "tiramisu-cake",
+          "name": "Tiramisu Cake",
+          "description": null,
+          "price": 6.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 3,
+          "pricing": {
+            "type": "single",
+            "price": 6.0
+          },
+          "image": "images/items/tiramisu-cake.jpg"
+        },
+        {
+          "id": "bisquets",
+          "name": "Bisquets",
+          "description": "Available flavors: Naranja, Fresa, Piña, Durazno, Nutela, Cajeta",
+          "price": 4.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 4,
+          "pricing": {
+            "type": "single",
+            "price": 4.0
+          },
+          "image": "images/items/bisquets.jpg"
+        },
+        {
+          "id": "manzanas-chamoy",
+          "name": "Manzanas Chamoy",
+          "description": null,
+          "price": 5.0,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 5.0
+          },
+          "image": "images/items/manzanas-chamoy.jpg"
+        },
+        {
+          "id": "arroz-con-leche",
+          "name": "Arroz con Leche",
+          "description": null,
+          "price": 4.25,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 4.25
+          },
+          "image": "images/items/arroz-con-leche.jpg"
+        },
+        {
+          "id": "gelatina",
+          "name": "Gelatina",
+          "description": "Queso, crema y almendras",
+          "price": 4.25,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 7,
+          "pricing": {
+            "type": "single",
+            "price": 4.25
+          },
+          "image": "images/items/gelatina.jpg"
+        }
+      ],
+      "image": "images/sections/desserts.jpg"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "notes": null,
+      "source_file": "Bebidas.json",
+      "sort_order": 13,
+      "items": [
+        {
+          "id": "aguas-frescas",
+          "name": "Aguas Frescas",
+          "description": null,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 1,
+          "variants": [
+            {
+              "name": "Small",
+              "price": 3.5
+            },
+            {
+              "name": "Large",
+              "price": 6.0
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small",
+                "name": "Small",
+                "price": 3.5
+              },
+              {
+                "id": "large",
+                "name": "Large",
+                "price": 6.0
+              }
+            ]
+          },
+          "image": "images/items/aguas-frescas.jpg"
+        },
+        {
+          "id": "jugo-de-naranja",
+          "name": "Jugo de Naranja",
+          "description": null,
+          "price": 4.25,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 2,
+          "pricing": {
+            "type": "single",
+            "price": 4.25
+          },
+          "image": "images/items/jugo-de-naranja.jpg"
+        },
+        {
+          "id": "cafe-regular",
+          "name": "Café",
+          "description": null,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 3,
+          "variants": [
+            {
+              "name": "Regular",
+              "price": 3.25
+            },
+            {
+              "name": "Refill",
+              "price": 1.0
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "regular",
+                "name": "Regular",
+                "price": 3.25
+              },
+              {
+                "id": "refill",
+                "name": "Refill",
+                "price": 1.0
+              }
+            ]
+          },
+          "image": "images/items/café.jpg"
+        },
+        {
+          "id": "cafe-de-olla",
+          "name": "Café de Olla",
+          "description": null,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 4,
+          "variants": [
+            {
+              "name": "Mug",
+              "price": 3.25
+            },
+            {
+              "name": "16 oz",
+              "price": 3.75
+            },
+            {
+              "name": "32 oz",
+              "price": 6.25
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "mug",
+                "name": "Mug",
+                "price": 3.25
+              },
+              {
+                "id": "16-oz",
+                "name": "16 oz",
+                "price": 3.75
+              },
+              {
+                "id": "32-oz",
+                "name": "32 oz",
+                "price": 6.25
+              }
+            ]
+          },
+          "image": "images/items/café-de-olla.jpg"
+        },
+        {
+          "id": "cafe-organico",
+          "name": "Café Orgánico",
+          "description": null,
+          "price": 4.25,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 5,
+          "pricing": {
+            "type": "single",
+            "price": 4.25
+          },
+          "image": "images/items/café-orgánico.jpg"
+        },
+        {
+          "id": "te",
+          "name": "Té",
+          "description": null,
+          "price": 3.25,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 6,
+          "pricing": {
+            "type": "single",
+            "price": 3.25
+          },
+          "image": "images/items/té.jpg"
+        },
+        {
+          "id": "refrescos",
+          "name": "Refrescos",
+          "description": null,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 7,
+          "variants": [
+            {
+              "name": "Bottle",
+              "price": 3.5
+            },
+            {
+              "name": "Fountain",
+              "price": 3.25
+            },
+            {
+              "name": "Refill",
+              "price": 1.0
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "bottle",
+                "name": "Bottle",
+                "price": 3.5
+              },
+              {
+                "id": "fountain",
+                "name": "Fountain",
+                "price": 3.25
+              },
+              {
+                "id": "refill",
+                "name": "Refill",
+                "price": 1.0
+              }
+            ]
+          },
+          "image": "images/items/refrescos.jpg"
+        },
+        {
+          "id": "champurrado",
+          "name": "Champurrado",
+          "description": null,
+          "print_to_kitchen": false,
+          "is_active": true,
+          "sort_order": 8,
+          "variants": [
+            {
+              "name": "Small",
+              "price": 4.0
+            },
+            {
+              "name": "Large",
+              "price": 6.0
+            }
+          ],
+          "pricing": {
+            "type": "variants",
+            "variants": [
+              {
+                "id": "small",
+                "name": "Small",
+                "price": 4.0
+              },
+              {
+                "id": "large",
+                "name": "Large",
+                "price": 6.0
+              }
+            ]
+          },
+          "image": "images/items/champurrado.jpg"
+        }
+      ],
+      "image": "images/sections/beverages.jpg"
+    }
+  ]
+}
