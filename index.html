@@ -25,6 +25,28 @@
     <div class="item-grid" id="itemGrid"></div>
   </main>
 
+
+  <!-- Item modal (tap a card to zoom) -->
+  <div class="modal" id="itemModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-card">
+        <div class="modal-img" id="modalImg"></div>
+        <div class="modal-content">
+          <div class="modal-top">
+            <h3 class="modal-title" id="modalTitle"></h3>
+            <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+          </div>
+          <p class="modal-desc" id="modalDesc"></p>
+          <p class="modal-notes" id="modalNotes"></p>
+          <div class="modal-price" id="modalPrice"></div>
+          <div id="modalVariants"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="app.js"></script>
 </body>
 </html>

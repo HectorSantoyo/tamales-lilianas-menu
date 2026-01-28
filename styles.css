@@ -138,3 +138,198 @@ body{
   transform: translateY(-2px);
   box-shadow: 0 18px 40px rgba(0,0,0,.14);
 }
+
+
+/* ====== v5 Modal + variants layout + fixed back button ====== */
+
+/* Make section view leave room for the fixed back button */
+#section.view.active{
+  padding-bottom: 88px;
+}
+
+/* Back button: fixed, visible, premium pill */
+#backBtn{
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 40;
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(28,26,23,.10);
+  box-shadow: 0 16px 34px rgba(0,0,0,.14);
+  border-radius: 999px;
+  padding: 12px 14px;
+  font-weight: 600;
+  letter-spacing: .1px;
+  color: var(--ink);
+}
+#backBtn:active{
+  transform: translateY(1px);
+}
+#backBtn:hover{
+  background: rgba(255,255,255,.95);
+}
+
+/* Item header: name + price */
+.item-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+}
+.item-head h4{
+  flex:1;
+}
+
+/* Variant list (inside cards and modal) */
+.variant-list{
+  margin-top: 10px;
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+}
+.variant-row{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:baseline;
+  gap:10px;
+  font-size: 13px;
+  color: var(--ink);
+}
+.variant-name{
+  color: var(--ink);
+}
+.variant-dots{
+  border-bottom: 1px dotted rgba(28,26,23,.25);
+  transform: translateY(-2px);
+}
+.variant-price{
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.notes{
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* Modal */
+body.modal-open{
+  overflow:hidden;
+}
+
+.modal{
+  position:fixed;
+  inset:0;
+  z-index: 80;
+  display:none;
+}
+.modal.open{
+  display:block;
+}
+
+.modal-backdrop{
+  position:absolute;
+  inset:0;
+  background: rgba(20,18,15,.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity:0;
+  animation: modalFade .18s ease-out forwards;
+}
+
+.modal-sheet{
+  position:absolute;
+  left:50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(16px);
+  width: min(560px, 100%);
+  padding: 16px;
+  animation: sheetIn .22s ease-out forwards;
+}
+
+.modal-card{
+  background: var(--card);
+  border-radius: 22px;
+  box-shadow: 0 28px 70px rgba(0,0,0,.24);
+  overflow:hidden;
+}
+
+.modal-img{
+  height: 300px;
+  background: linear-gradient(135deg,#ece6dc,#faf6ef);
+  background-size: cover;
+  background-position: center;
+}
+.modal-img.noimg{
+  position:relative;
+}
+.modal-img.noimg::after{
+  content:"Sin foto por ahora";
+  position:absolute;
+  inset:auto 16px 16px 16px;
+  padding:10px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.78);
+  border: 1px solid rgba(28,26,23,.10);
+  color: var(--muted);
+  font-size: 12.5px;
+  width: fit-content;
+}
+
+.modal-content{
+  padding: 14px 16px 16px;
+}
+.modal-top{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 12px;
+}
+.modal-title{
+  margin:0;
+  font-family: var(--font-head);
+  font-size: 20px;
+}
+.modal-close{
+  border:none;
+  background: rgba(28,26,23,.06);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 10px 12px;
+  cursor:pointer;
+}
+.modal-close:hover{
+  background: rgba(28,26,23,.10);
+}
+.modal-desc{
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.35;
+}
+.modal-notes{
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+.modal-price{
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@keyframes modalFade{
+  to{ opacity:1; }
+}
+@keyframes sheetIn{
+  to{ transform: translateX(-50%) translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .modal-backdrop, .modal-sheet{ animation:none !important; }
+  .section-img, .item-img{ transition:none !important; }
+}
